@@ -18,3 +18,100 @@
     font-style: normal;
     font-weight: normal;
 }
+
+body {
+    min-width: 320px;
+    font-family: GothamRounded-Medium;
+    color: #8c9398;
+    font-weight: 500;
+}
+
+.inner {
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url("../img/template/header.png") repeat-x center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.header__inner {
+    position: relative;
+}
+
+.header__menu-button {
+    position: absolute;
+    right: 0;
+    top: 63px;
+    color: #372c3c;
+    font-size: 30px;
+}
+
+.header__main {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+}
+
+.title {
+    color: #353535;
+    font-family: "GothamRounded-Book";
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+}
+
+.title--grey {
+    color: #a1a9b0;
+    letter-spacing: 12px;
+}
+
+.header__description {
+    margin: 20px 0 77px;
+    color: #8c9398;
+    font-family: GothamRounded-Book;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2.2px;
+}
+
+.header__description--italic {
+    font-family: GothamRounded-MediumItalic;
+    font-weight: 500;
+    letter-spacing: 2.3px;
+}
+
+.header__button {
+    position: relative;
+    width: 200px;
+    height: 46px;
+    background-color: #309383;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: GothamRounded-Medium;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2.25px;
+}
+
+.header__button:after {
+    position: absolute;
+    display: block;
+    bottom: 3px;
+    left: 0px;
+    width: 200px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #3dc9b3;
+    content:'learn more';
+    padding-top: 22px;
+}
