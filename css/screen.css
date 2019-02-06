@@ -1,19 +1,19 @@
 @font-face {
-    font-family: "GothamRounded-Book";
+    font-family: GothamRounded-Book;
     src: url('../fonts/GothamRounded-Book.otf');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
-    font-family: "GothamRounded-Medium";
+    font-family: GothamRounded-Medium;
     src: url('../fonts/GothamRounded-Medium.otf');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
-    font-family: "GothamRounded-MediumItalic";
+    font-family: GothamRounded-MediumItalic;
     src: url('../fonts/GothamRounded-MediumItalic.otf');
     font-style: normal;
     font-weight: normal;
@@ -34,7 +34,7 @@ body {
 }
 
 .header {
-    background: url("../img/template/header.png") repeat-x center;
+    background: url('../img/template/header.png') repeat-x center;
     background-size: cover;
     min-height: 100vh;
 }
@@ -61,7 +61,7 @@ body {
 
 .title {
     color: #353535;
-    font-family: "GothamRounded-Book";
+    font-family: GothamRounded-Book;
     font-size: 40px;
     font-weight: 400;
     text-transform: uppercase;
