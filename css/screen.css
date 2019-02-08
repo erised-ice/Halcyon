@@ -74,7 +74,7 @@ body {
 }
 
 .header__description {
-    margin: 20px 0 77px;
+    margin: 20px 0 65px;
     color: #8c9398;
     font-family: GothamRounded-Book;
     font-size: 15px;
@@ -88,30 +88,25 @@ body {
     letter-spacing: 2.3px;
 }
 
-.header__button {
-    position: relative;
-    width: 200px;
-    height: 46px;
+.header__button-border {
+    display: inline-block;
+    height: 63px;
     background-color: #309383;
-    border: none;
     border-radius: 5px;
+}
+
+.header__button {
+    width: 200px;
+    height: 60px;
     color: #fff;
     font-family: GothamRounded-Medium;
     font-size: 15px;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 2.25px;
+    background-color: #3dc9b3;
+    border: none;
+    border-radius: 5px;
 }
 
-.header__button:after {
-    position: absolute;
-    display: block;
-    bottom: 3px;
-    left: 0px;
-    width: 200px;
-    height: 38px;
-    border-radius: 5px;
-    background-color: #3dc9b3;
-    content:'learn more';
-    padding-top: 22px;
-}
+
