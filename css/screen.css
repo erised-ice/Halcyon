@@ -125,13 +125,49 @@ body {
 }
 
 .subtitle--with-dots {
+    position: relative;
     max-width: 556px;
     padding-bottom: 16px;
     margin: 0 auto;
+    letter-spacing: 2.25px;
+}
+
+.subtitle--with-dots:before {
+    position: absolute;
+    content: '';
+    width: 88px;
+    left: 50%;
+    background: #f3f5f8;
+    top: 42px;
+    display: inline-block;
+    height: 10px;
+    transform: translate(-50%, 0);
+}
+
+.subtitle--with-dots:after {
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 13px;
+    left: 50%;
+    background: url("../img/template/subtitle-triangle.png") no-repeat center;
+    top: 42px;
+    display: inline-block;
+    transform: translate(-50%, 0);
 }
 
 .paragraph {
     text-align: center;
+}
+
+.article__inner {
+    padding: 71px 0 127px;
+}
+
+.article__paragraph {
+    padding: 71px 199px 0;
+    line-height: 2.5;
+    letter-spacing: 1.5px;
 }
 
 .article__paragraph--black {
