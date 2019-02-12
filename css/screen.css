@@ -110,7 +110,36 @@ body {
     border-radius: 5px;
 }
 
+.article,
+.responsive,
+.footer__main {
+    background: #f3f5f8;
+}
+
+.subtitle {
+    color: #353535;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subtitle--with-dots {
+    max-width: 556px;
+    padding-bottom: 16px;
+    margin: 0 auto;
+}
+
+.paragraph {
+    text-align: center;
+}
+
+.article__paragraph--black {
+    color: #353535;
+}
+
 @media (min-width: 1024px) {
     .header__menu-button:hover {
         opacity: 0.7;
+    }
 }
