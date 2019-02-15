@@ -127,7 +127,7 @@ body {
 .subtitle--with-dots {
     position: relative;
     max-width: 556px;
-    padding-bottom: 16px;
+    padding-bottom: 31px;
     margin: 0 auto;
     letter-spacing: 2.25px;
 }
@@ -138,7 +138,7 @@ body {
     width: 88px;
     left: 50%;
     background: #f3f5f8;
-    top: 42px;
+    bottom: -7px;
     display: inline-block;
     height: 10px;
     transform: translate(-50%, 0);
@@ -151,9 +151,13 @@ body {
     height: 13px;
     left: 50%;
     background: url("../img/template/subtitle-triangle.png") no-repeat center;
-    top: 42px;
+    bottom: -7px;
     display: inline-block;
     transform: translate(-50%, 0);
+}
+
+.subtitle--dots-border {
+    vertical-align: top;
 }
 
 .paragraph {
@@ -161,13 +165,15 @@ body {
 }
 
 .article__inner {
-    padding: 71px 0 127px;
+    padding: 107px 0 127px;
 }
 
 .article__paragraph {
-    padding: 71px 199px 0;
-    line-height: 2.5;
-    letter-spacing: 1.5px;
+    margin: 71px auto 0;
+    line-height: 30px;
+    letter-spacing: 0.14px;
+    font-size: 14px;
+    max-width: 742px;
 }
 
 .article__paragraph--black {
