@@ -235,6 +235,25 @@ body {
     color: #8c9398;
 }
 
+.responsive__inner {
+    display: flex;
+}
+
+.responsive__img {
+    max-width: 584px;
+    max-height: 700px;
+    flex: 0 1 51.32%;
+}
+
+.responsive__slider {
+    flex: 0 1 48.68%;
+    padding-left: 99px;
+}
+
+.slider__item {
+    background: deeppink;
+}
+
 @media (min-width: 1024px) {
     .header__menu-button:hover {
         opacity: 0.7;
