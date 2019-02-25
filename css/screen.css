@@ -232,7 +232,6 @@ body {
 .profile__paragraph {
     margin: 58px auto 0;
     line-height: 20px;
-    color: #8c9398;
 }
 
 .responsive__inner {
@@ -246,12 +245,18 @@ body {
 }
 
 .responsive__slider {
-    flex: 0 1 48.68%;
-    padding-left: 99px;
+    padding: 134px 0 0 99px;
+    width: 555px;
 }
 
-.slider__item {
-    background: deeppink;
+.responsive__text {
+    margin-top: 35px;
+}
+
+.responsive__paragraph {
+    text-align: justify;
+    padding-bottom: 32px;
+    line-height: 20px;
 }
 
 @media (min-width: 1024px) {
