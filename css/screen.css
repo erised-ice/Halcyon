@@ -232,6 +232,7 @@ body {
 .profile__paragraph {
     margin: 58px auto 0;
     line-height: 20px;
+    color: #8c9398;
 }
 
 .responsive__inner {
@@ -291,16 +292,12 @@ body {
     position: absolute;
     bottom: -2.2px;
     right: -2px;
-    content: "";
+    content: '';
     width: 9px;
     height: 9px;
     border: 2px solid #c9cbca;
     border-radius: 50%;
     background-color: #212024;
-}
-
-.responsive__slider-item {
-    height
 }
 
 @media (min-width: 1024px) {
