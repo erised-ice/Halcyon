@@ -1,10 +1,9 @@
-/*$(document).ready(function() {
-    $('.js-slider').slick();
-});*/
-
 $(document).ready(function() {
     $('.js-slider').slick({
-        dots: true
+        dots: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        arrows: false
     });
 });
 
