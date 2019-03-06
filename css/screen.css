@@ -241,12 +241,12 @@ body {
 
 .responsive__img {
     max-width: 584px;
-    max-height: 700px;
     flex: 0 1 51.32%;
 }
 
 .responsive__content {
-    width: 555px;
+    width: 100%;
+    max-width: 555px;
     padding: 134px 0 0 99px;
 }
 
