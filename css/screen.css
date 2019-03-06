@@ -264,6 +264,52 @@ body {
     line-height: 20px;
 }
 
+.slogan {
+    background: url("../img/template/flower-background.png") repeat-x center;
+    background-size: cover;
+}
+
+.slogan__inner {
+    text-align: center;
+    padding: 81px 0 55px;
+}
+
+.title--white {
+    color: #fff;
+}
+
+.slogan__title {
+    margin-bottom: 28px;
+}
+
+.slogan__description {
+    color: #fff;
+    font-family: GothamRounded-Book;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 7.5px;
+}
+
+.slogan__description--italic {
+    font-family: GothamRounded-MediumItalic;
+}
+
+.slogan__link {
+    display: block;
+    width: 44px;
+    height: 44px;
+    background-color: #3dc9b3;
+    border-radius: 50%;
+    margin: 43px auto 0;
+}
+
+.fa-angle-down {
+    line-height: 1.7;
+    font-size: 27px;
+    color: #fff;
+}
+
 /* Стили для слайдера */
 .slick-dots {
     bottom: 0;
