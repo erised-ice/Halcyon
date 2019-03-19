@@ -344,6 +344,23 @@ font-size: 20px;
     line-height: 20px;
 }
 
+.ignition {
+    background-color: #242830;
+    text-align: center;
+}
+
+.ignition__button {
+    width: 294px;
+    height: 74px;
+    border: 1px solid #fff;
+    background-color: #242830;
+    margin: 65px auto 61px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2.25px;
+}
 
 /* Стили для слайдера */
 .slick-dots {
