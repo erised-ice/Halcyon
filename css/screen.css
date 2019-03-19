@@ -362,6 +362,11 @@ font-size: 20px;
     letter-spacing: 2.25px;
 }
 
+.team__slider-item {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* Стили для слайдера */
 .slick-dots {
     bottom: 0;
