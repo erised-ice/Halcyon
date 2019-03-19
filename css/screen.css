@@ -323,10 +323,9 @@ font-size: 20px;
 }
 
 .portfolio__item {
+    display: block;
     width: 100%;
     flex: 0 1 calc(33.333% - 18px);
-    display: block;
-    text-align: justify;2
 }
 
 .portfolio__picture {
@@ -365,6 +364,16 @@ font-size: 20px;
 .team__slider-item {
     display: flex;
     justify-content: space-between;
+}
+
+.team__item {
+    display: block;
+    width: 100%;
+    flex: 0 1 calc(33.333% - 18px);
+}
+
+.team__picture {
+    text-align: center;
 }
 
 /* Стили для слайдера */
