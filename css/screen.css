@@ -226,8 +226,13 @@ body {
     background: #3dc9b3;
     left: 50%;
     transform: translate(-50%, 0);
+    bottom: -18px;
+}
+
+.profile__subtitle:after {
     bottom: -26px;
 }
+
 
 .profile__paragraph {
     margin: 58px auto 0;
@@ -306,9 +311,39 @@ body {
 
 .icon-down-open {
     color: #fff;
-    line-height: 2.2;
-    font-size: 20px;
+line-height: 2.2;
+font-size: 20px;
 }
+
+.portfolio__slider-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0;
+    padding: 104px 0 109px;
+}
+
+.portfolio__item {
+    width: 100%;
+    flex: 0 1 calc(33.333% - 18px);
+    display: block;
+    text-align: justify;2
+}
+
+.portfolio__picture {
+    display: block;
+    width: 100%;
+    max-width: 360px;
+}
+
+.portfolio__subtitle {
+    margin-top: 45px;
+}
+
+.portfolio__paragraph {
+    margin-top: 45px;
+    line-height: 20px;
+}
+
 
 /* Стили для слайдера */
 .slick-dots {
