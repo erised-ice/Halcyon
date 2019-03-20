@@ -137,7 +137,7 @@ body {
     content: '';
     width: 88px;
     left: 50%;
-    background: #f3f5f8;
+    background: #fff;
     bottom: -7px;
     display: inline-block;
     height: 10px;
@@ -169,6 +169,10 @@ body {
     padding: 107px 0 127px;
 }
 
+.article__subtitle:before {
+    background-color: #f3f5f8;
+}
+
 .article__paragraph {
     margin: 71px auto 0;
     line-height: 30px;
@@ -182,10 +186,6 @@ body {
 
 .profile__inner {
     padding: 100px 0 120px;
-}
-
-.profile__subtitle:before {
-    background: #fff;
 }
 
 .profile__items {
@@ -238,6 +238,11 @@ body {
     margin: 58px auto 0;
     line-height: 20px;
     color: #8c9398;
+}
+
+.responsive {
+    background: linear-gradient(to right, #f3f5f8 50%, #fff 50%);
+    background-color: ;
 }
 
 .responsive__inner {
@@ -337,6 +342,8 @@ font-size: 20px;
 .portfolio__subtitle {
     margin-top: 45px;
 }
+
+
 
 .portfolio__paragraph {
     margin-top: 45px;
