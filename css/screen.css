@@ -169,7 +169,8 @@ body {
     padding: 107px 0 127px;
 }
 
-.article__subtitle:before {
+.article__subtitle:before,
+.footer__subtitle:before {
     background-color: #f3f5f8;
 }
 
@@ -422,7 +423,6 @@ body {
 .subscribe {
     background: url("../img/template/keyboard.png");
     background-size: cover;
-    margin-bottom: 126px;
 }
 
 .subscribe__inner {
@@ -486,6 +486,55 @@ body {
     color: #fff;
     line-height: 2.3;
     font-size: 20px;
+}
+
+.footer__main {
+    padding: 126px 0 113px;
+}
+
+.footer__items {
+    display: flex;
+    justify-content: space-between;
+    margin: 78px 0 99px;
+}
+
+.footer__item {
+    flex: 0 1 calc(33.333% - 18px);
+    box-shadow: 0 3px 0 #f0f2f4;
+    background-color: #fff;
+    text-align: center;
+    padding: 29px 0 31px;
+}
+
+.footer__title {
+    color: #3dc9b3;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+    padding: 20px 0 29px;
+}
+
+.icon-location,
+.icon-mobile,
+.icon-paper-plane--footer {
+    color: #242830;
+    font-family: "Font Awesome";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.icon-paper-plane--footer {
+    font-size: 20px;
+}
+
+.footer__contact {
+    color: #8c9398;
+    font-size: 14px;
+}
+
+.footer__mail {
+    color: #242830;
 }
 
 /* Стили для слайдера */
