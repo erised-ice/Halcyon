@@ -316,8 +316,8 @@ body {
 
 .icon-down-open {
     color: #fff;
-line-height: 2.2;
-font-size: 20px;
+    line-height: 2.2;
+    font-size: 20px;
 }
 
 .portfolio__slider-item {
@@ -351,6 +351,7 @@ font-size: 20px;
 .ignition {
     background-color: #242830;
     text-align: center;
+    margin-bottom: 87px;
 }
 
 .ignition__button {
@@ -369,6 +370,7 @@ font-size: 20px;
 .team__slider-item {
     display: flex;
     justify-content: space-between;
+    margin: 45px 0 0;
 }
 
 .team__item {
@@ -379,6 +381,42 @@ font-size: 20px;
 
 .team__picture {
     text-align: center;
+}
+
+.team__subtitle {
+    margin-top: 56px;
+}
+
+.team__paragraph {
+    margin: 50px 0 36px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 143px;
+    margin: 0 auto;
+}
+
+.team__social {
+    margin-bottom: 91px;
+}
+
+.social__link {
+    display: block;
+    border-radius: 50%;
+    width: 41px;
+    height: 41px;
+    background-color: #242830;
+    text-align: center;
+}
+
+.icon-dribbble,
+.icon-twitter,
+.icon-mail-alt {
+    color: #fff;
+    line-height: 2.1;
+    font-size: 20px;
 }
 
 /* Стили для слайдера */
