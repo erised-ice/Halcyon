@@ -419,6 +419,75 @@ body {
     font-size: 20px;
 }
 
+.subscribe {
+    background: url("../img/template/keyboard.png");
+    background-size: cover;
+    margin-bottom: 126px;
+}
+
+.subscribe__inner {
+    padding: 122px 0 155px;
+    text-align: center;
+    position: relative;
+}
+
+.icon-paper-plane {
+    color: white;
+    font-size: 25px;
+}
+
+.subtitle--white {
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.25px;
+    padding: 24px 0 47px;
+}
+
+.subscribe__form {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 455px;
+    justify-content: space-between;
+}
+
+.subscribe__input {
+    width: 351px;
+    height: 65px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+}
+
+.subscribe__button {
+    width: 97px;
+    height: 65px;
+    border: 1px solid #3dc9b3;
+    background-color: #3dc9b3;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.25px;
+}
+
+.subscribe__link {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 50px;
+    height: 50px;
+    background-color: #3dc9b3;
+    opacity: 0.8;
+    border-radius: 50%;
+}
+
+.icon-up-open {
+    color: #fff;
+    line-height: 2.3;
+    font-size: 20px;
+}
+
 /* Стили для слайдера */
 .slick-dots {
     bottom: 0;
