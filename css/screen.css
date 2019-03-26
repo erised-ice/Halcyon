@@ -230,11 +230,6 @@ body {
     bottom: -18px;
 }
 
-.profile__subtitle:after {
-    bottom: -26px;
-}
-
-
 .profile__paragraph {
     margin: 58px auto 0;
     line-height: 20px;
@@ -535,6 +530,22 @@ body {
 
 .footer__mail {
     color: #242830;
+}
+
+.footer__social {
+    width: 163px;
+}
+
+.footer__copyright {
+    background-color: #242830;
+}
+
+.footer__copyright-text {
+    color: #a1a9b0;
+    font-family: GothamRounded-Book;
+    font-size: 14px;
+    color: #fff;
+    padding: 55px 0 51px;
 }
 
 /* Стили для слайдера */
