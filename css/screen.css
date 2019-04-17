@@ -260,9 +260,7 @@ body {
   height: 443px;
 }
 
-.responsive__slider-item:focus,
-.portfolio__slider-item:focus,
-.team__slider-item:focus {
+.slider__item:focus {
   outline: none;
 }
 
