@@ -50,6 +50,7 @@ body {
   color: #372c3c;
   font-size: 30px;
   cursor: pointer;
+  transition: 0.25s ease-out opacity;
 }
 
 .header__main {
@@ -211,6 +212,7 @@ body {
   width: 151px;
   max-width: 100%;
   margin: 0 auto 51px;
+  transition: 0.25s ease-out opacity;
 }
 
 .subtitle--with-strip {
@@ -312,6 +314,7 @@ body {
   background-color: #3dc9b3;
   border-radius: 50%;
   margin: 43px auto 0;
+  transition: 0.25s ease-out opacity;
 }
 
 .icon-down-open {
@@ -552,6 +555,7 @@ body {
 .footer__contact {
   color: #8c9398;
   font-size: 14px;
+  transition: 0.25s ease-out color;
 }
 
 .footer__mail {
@@ -616,12 +620,10 @@ body {
     .subscribe__link:hover,
     .profile__img:hover {
       opacity: 0.8;
-      transition: 0.25s ease-out opacity;
   }
 
     .footer__contact:hover {
       color: #3dc9b3;
-      transition: 0.25s ease-out color;
     }
 
     .social__link:hover {
@@ -648,7 +650,7 @@ body {
     }
 
     .profile__img {
-        margin: auto 0;
+      margin: auto 0;
     }
 
     .profile__text {
