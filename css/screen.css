@@ -427,6 +427,7 @@ body {
   height: 41px;
   background-color: #242830;
   text-align: center;
+  transition: 0.25s ease-out background-color;
 }
 
 .icon-dribbble,
@@ -625,7 +626,6 @@ body {
 
     .social__link:hover {
       background-color: #3dc9b3;
-      transition: 0.25s ease-out background-color;
   }
 
     .portfolio__picture:hover:after {
@@ -635,7 +635,6 @@ body {
 
 @media (max-width: 767px) {
     .profile__item {
-        max-width: 339px;
         margin-bottom: 40px;
         flex: 1 1 100%;
         display: flex;

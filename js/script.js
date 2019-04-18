@@ -16,13 +16,13 @@ $(document).ready(function() {
 });
 
 function smoothAnchor() {
-  var menu = $('.js-nav');
-  var smoothSpeed = 5000;
+  var element = $('.js-anchor');
+  var smoothSpeed = 500;
 
-  menu.on('click','a', function (event) {
+  element.on('click', function (event) {
     event.preventDefault();
 
-    var target = $(event.target);
+    var target = $(event.currentTarget);
     var id  = target.attr('href');
     var top = $(id).offset().top;
 
@@ -30,4 +30,4 @@ function smoothAnchor() {
   });
 }
 
-smoothAnchor()
+smoothAnchor();
