@@ -465,7 +465,7 @@ body {
 }
 
 .subscribe__inner {
-  padding: 122px 0 155px;
+  padding: 122px 20px 155px;
   text-align: center;
   position: relative;
 }
@@ -699,6 +699,31 @@ body {
   }
 }
 
+@media (max-width: 520px) {
+  .subscribe__form {
+    display: block;
+  }
+
+  .subscribe__input {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .subscribe__button {
+    display: block;
+    width: 100%;
+  }
+
+  .footer__items {
+    display: block;
+  }
+
+  .footer__item {
+    margin-bottom: 20px;
+  }
+}
+
 @media (max-width: 440px) {
   .profile__picture {
     display: none;
@@ -710,5 +735,14 @@ body {
 
   .ignition__button {
     padding: 0;
+  }
+
+  .footer__icon,
+  .footer__title {
+    display: inline-block;
+  }
+
+  .footer__contact {
+    display: block;
   }
 }
