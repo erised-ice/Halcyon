@@ -278,7 +278,8 @@ body {
   height: 443px;
 }
 
-.slider__item:focus {
+.slider__item:focus,
+.portfolio__picture:focus {
   outline: none;
 }
 
@@ -339,22 +340,21 @@ body {
   font-size: 20px;
 }
 
-.portfolio__section {
+.portfolio__slider {
   font-size: 0;
   padding: 104px 0 109px;
 }
 
 .portfolio__item {
-  width: 360px;
   max-width: 100%;
   padding: 0 10px;
 }
 
 .portfolio__picture {
   position: relative;
-  display: block;
   width: 100%;
-  max-width: 360px;
+  display: flex;
+  justify-content: center;
 }
 
 .portfolio__picture:after {
@@ -376,14 +376,12 @@ body {
 .portfolio__subtitle {
   margin-top: 45px;
   width: 100%;
-  max-width: 360px;
 }
 
 .portfolio__paragraph {
   margin-top: 45px;
   line-height: 20px;
   width: 100%;
-  max-width: 360px;
 }
 
 .ignition {
@@ -407,7 +405,7 @@ body {
   transition: 0.25s ease-out opacity;
 }
 
-.team__section {
+.team__slider {
   display: flex;
   justify-content: space-between;
   margin: 45px 0 0;
@@ -416,7 +414,7 @@ body {
 .team__item {
   display: block;
   width: 100%;
-  flex: 0 1 calc(33.333% - 18px);
+  padding: 0 10px;
 }
 
 .team__picture {
@@ -687,11 +685,11 @@ body {
     flex: 2 1 calc(66.667% - 20px);
   }
 
-    .subtitle--with-strip {
+    .profile__subtitle {
     margin: 0;
   }
 
-    .subtitle--with-strip:after {
+    .profile__subtitle:after {
     display: none;
   }
 
