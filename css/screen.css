@@ -242,37 +242,18 @@ body {
 }
 
 .responsive {
-  background: #f3f5f8 url("../img/template/iPhone_5S.png") no-repeat;
+  background: url("../img/template/iPhone_5S.png") no-repeat, linear-gradient(to right, #f3f5f8 60%, #fff 40%) ;
 }
 
 .responsive__inner {
   display: flex;
 }
 
-/*.responsive__img {
-  flex: 0 1 51.32%;
-}*/
-
-/*.responsive__picture {
-  position: relative;
-  height: 0;
-  padding-bottom: 61.40%;
-  width: 100%;
-}
-
-.responsive__img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}*/
-
 .responsive__content {
   position: relative;
   left: 51.32%;
-  width: 48.68%;
-  max-width: 555px;
+  width: 555px;
+  max-width: 100%;
   padding: 134px 0 0 8.68%;
   background: #fff;
 }
@@ -655,6 +636,21 @@ body {
 
     .portfolio__picture:hover:after {
       opacity: 1;
+  }
+}
+
+@media (max-width: 1137px) {
+  .responsive__content {
+    left: 41.32%;
+  }
+}
+
+@media (max-width: 950px) {
+  .responsive__content {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding-left: 0;
   }
 }
 
