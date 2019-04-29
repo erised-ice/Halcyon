@@ -232,7 +232,7 @@ body {
   background: #3dc9b3;
   left: 50%;
   transform: translate(-50%, 0);
-  bottom: 0px;
+  bottom: 0;
 }
 
 .profile__paragraph {
@@ -340,16 +340,14 @@ body {
 }
 
 .portfolio__section {
-  display: flex;
-  justify-content: space-between;
   font-size: 0;
   padding: 104px 0 109px;
 }
 
 .portfolio__item {
-  display: block;
-  width: 100%;
-  flex: 0 1 calc(33.333% - 18px);
+  width: 360px;
+  max-width: 100%;
+  padding: 0 10px;
 }
 
 .portfolio__picture {
@@ -377,11 +375,15 @@ body {
 
 .portfolio__subtitle {
   margin-top: 45px;
+  width: 100%;
+  max-width: 360px;
 }
 
 .portfolio__paragraph {
   margin-top: 45px;
   line-height: 20px;
+  width: 100%;
+  max-width: 360px;
 }
 
 .ignition {
