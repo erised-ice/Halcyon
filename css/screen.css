@@ -250,8 +250,8 @@ body {
 }
 
 .responsive__content {
-  position: relative;
-  left: 51.32%;
+  /*position: relative;*/
+  margin-left: 51.32%;
   width: 555px;
   max-width: 100%;
   padding: 134px 0 0 8.68%;
@@ -648,10 +648,10 @@ body {
 
 @media (max-width: 950px) {
   .responsive__content {
-    position: absolute;
-    left: 50%;
+    /*position: absolute;*/
+    margin-left: 50%;
     transform: translate(-50%, 0);
-    padding-left: 0;
+    /*padding-left: 0;*/
   }
 }
 
