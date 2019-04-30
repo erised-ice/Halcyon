@@ -256,6 +256,7 @@ body {
   max-width: 100%;
   padding: 134px 0 0 8.68%;
   background: #fff;
+  box-shadow: -10px 13px 25px -15px;
 }
 
 .responsive__slider-item {
