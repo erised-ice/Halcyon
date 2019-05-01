@@ -242,7 +242,7 @@ body {
 }
 
 .responsive {
-  background: url("../img/template/iPhone_5S.png") no-repeat, linear-gradient(to right, #f3f5f8 60%, #fff 40%) ;
+  background: url("../img/template/iPhone_5S.png") no-repeat 353px 30px, linear-gradient(to right, #f3f5f8 60%, #fff 40%) ;
 }
 
 .responsive__inner {
@@ -250,11 +250,10 @@ body {
 }
 
 .responsive__content {
-  /*position: relative;*/
   margin-left: 51.32%;
   width: 555px;
   max-width: 100%;
-  padding: 134px 0 0 8.68%;
+  padding: 134px 0 95px 8.68%;
   background: #fff;
   box-shadow: -10px 13px 25px -15px;
 }
