@@ -129,7 +129,7 @@ body {
 .subtitle--with-dots {
   position: relative;
   max-width: 556px;
-  padding-bottom: 31px;
+  padding: 0 20px 31px;
   margin: 0 auto;
   letter-spacing: 2.25px;
 }
@@ -208,12 +208,12 @@ body {
 
 .profile__picture {
   text-align: center;
+  margin: 0 auto 51px;
 }
 
 .profile__img {
   width: 151px;
   max-width: 100%;
-  margin: 0 auto 51px;
   transition: 0.25s ease-out opacity;
 }
 
@@ -250,7 +250,9 @@ body {
 }
 
 .responsive__content {
-  margin-left: 51.32%;
+  position: relative;
+  right: 0px;
+  /*margin-left: 51.32%;*/
   width: 555px;
   max-width: 100%;
   padding: 134px 0 95px 8.68%;
@@ -639,27 +641,12 @@ body {
   }
 }
 
-@media (max-width: 1137px) {
-  .responsive__content {
-    left: 41.32%;
-  }
-}
-
-@media (max-width: 950px) {
-  .responsive__content {
-    /*position: absolute;*/
-    margin-left: 50%;
-    transform: translate(-50%, 0);
-    /*padding-left: 0;*/
-  }
-}
-
 @media (max-width: 767px) {
   .header__main {
     padding: 0 20px;
   }
 
-  .title--grey {
+  .profile__item {
     display: block;
   }
 
@@ -672,32 +659,37 @@ body {
   }
 
     .profile__picture {
-    max-height: 151px;
     flex: 1 1 calc(33.333% - 20px);
-  }
-
-    .profile__img {
-    margin: auto 0;
   }
 
     .profile__text {
     flex: 2 1 calc(66.667% - 20px);
   }
 
-    .profile__subtitle {
-    margin: 0;
-  }
-
-    .profile__subtitle:after {
-    display: none;
-  }
-
     .profile__paragraph {
     margin-top: 25px;
-    padding: 0 20px;
+  }
+
+    .slogan__title {
+      font-size: 30px;
+      letter-spacing: 8px;
+    }
+
+    .slogan__description {
+      font-size: 20px;
+    }
+
+
+
+  .footer__items {
+    display: block;
+  }
+
+  .footer__item {
+    margin-bottom: 20px;
   }
 }
-
+/*Избавиться*/
 @media (max-width: 520px) {
   .subscribe__form {
     display: block;
@@ -713,35 +705,59 @@ body {
     display: block;
     width: 100%;
   }
-
-  .footer__items {
-    display: block;
-  }
-
-  .footer__item {
-    margin-bottom: 20px;
-  }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 480px) {
+  .title {
+    font-size: 20px;
+}
+
+  .slogan__title,
+  .slogan__description {
+    letter-spacing: 5px;
+  }
+
+  .slogan__description {
+  font-size: 15px;
+}
+
+  .profile__inner {
+  padding: 50px 0 60px;
+}
+
+  .profile__items {
+  margin-top: 22px;
+}
+
+  .profile__item {
+  display: block;
+}
+
   .profile__picture {
-    display: none;
-  }
+  margin-bottom: 25px;
+}
 
-  .slogan__title {
-    letter-spacing: 6px;
-  }
+  .footer__main {
+  padding: 63px 0 56px;
+}
 
-  .ignition__button {
-    padding: 0;
-  }
+  .footer__items {
+  margin: 39px 0 44px;
+}
 
   .footer__icon,
   .footer__title {
-    display: inline-block;
-  }
+  display: inline-block;
+}
 
   .footer__contact {
-    display: block;
+  display: block;
+}
+}
+/*Избавиться*/
+@media (max-width: 440px) {
+
+  .ignition__button {
+    padding: 0;
   }
 }
