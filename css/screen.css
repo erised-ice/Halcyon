@@ -380,13 +380,11 @@ body {
 
 .portfolio__subtitle {
   margin-top: 45px;
-  width: 100%;
 }
 
 .portfolio__paragraph {
   margin-top: 45px;
   line-height: 20px;
-  width: 100%;
 }
 
 .ignition {
@@ -665,6 +663,10 @@ body {
     padding: 0 20px;
   }
 
+  .profile__inner {
+    padding: 50px 0 60px;
+  }
+
   .profile__item {
     display: block;
   }
@@ -679,6 +681,7 @@ body {
 
   .profile__picture {
     flex: 1 1 calc(33.333% - 20px);
+    margin: 0 15px;
   }
 
   .profile__text {
@@ -714,6 +717,10 @@ body {
 
   .slogan__description {
     font-size: 20px;
+  }
+
+  .portfolio__img {
+    width: 100%;
   }
 
   .subscribe__input {
@@ -756,7 +763,7 @@ body {
   }
 
   .profile__inner {
-    padding: 50px 0 60px;
+    padding: 50px 0 30px;
   }
 
   .profile__items {
@@ -811,7 +818,7 @@ body {
     display: block;
   }
 
-  .slick-dots {
+  .responsive .slick-dots {
     bottom: -40px;
   }
 }
