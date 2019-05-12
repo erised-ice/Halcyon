@@ -243,21 +243,38 @@ body {
 
 .responsive {
   background: url("../img/template/iPhone_5S.png") no-repeat 353px 30px, linear-gradient(to right, #f3f5f8 60%, #fff 40%) ;
+  position: relative;
+  overflow-x: hidden;
+  max-width: 100vw;
 }
 
 .responsive__inner {
   display: flex;
 }
 
+.responsive__picture {
+  display: none;
+  background: #f3f5f8;
+}
+
 .responsive__content {
   position: relative;
-  right: 0px;
-  /*margin-left: 51.32%;*/
+  margin-left: auto;
   width: 555px;
   max-width: 100%;
   padding: 134px 0 95px 8.68%;
   background: #fff;
   box-shadow: -10px 13px 25px -15px;
+}
+
+.responsive__content:after {
+  content: '';
+  height: 100%;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  right: -100vw;
+  background: #fff;
 }
 
 .responsive__slider-item {
@@ -623,18 +640,18 @@ body {
 }
 
 @media (min-width: 1024px) {
-    .header__menu-button:hover,
-    .slogan__link:hover,
-    .subscribe__link:hover,
-    .profile__img:hover {
-      opacity: 0.8;
+  .header__menu-button:hover,
+  .slogan__link:hover,
+  .subscribe__link:hover,
+  .profile__img:hover {
+    opacity: 0.8;
   }
 
-    .footer__contact:hover {
-      color: #3dc9b3;
-    }
+  .footer__contact:hover {
+    color: #3dc9b3;
+  }
 
-    .social__link:hover {
+  .social__link:hover {
     background-color: #3dc9b3;
   }
 
@@ -672,6 +689,24 @@ body {
     margin-top: 25px;
   }
 
+  .responsive {
+    background: none;
+  }
+
+  .responsive__inner {
+    display: block;
+  }
+
+  .responsive__picture {
+    display: block;
+  }
+
+  .responsive__content {
+    margin: 0 auto;
+    padding: 62px 8.68% 47px 8.68%;
+    box-shadow: none;
+  }
+
   .slogan__title {
     font-size: 30px;
     letter-spacing: 8px;
@@ -701,7 +736,7 @@ body {
 @media (max-width: 480px) {
   .title {
     font-size: 20px;
-}
+  }
 
   .article__inner {
     padding: 53px 20px 73px;
@@ -759,7 +794,6 @@ body {
     width: 100%;
   }
 
-
   .footer__main {
     padding: 63px 0 56px;
   }
@@ -775,5 +809,9 @@ body {
 
   .footer__contact {
     display: block;
+  }
+
+  .slick-dots {
+    bottom: -40px;
   }
 }
