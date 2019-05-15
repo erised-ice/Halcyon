@@ -355,7 +355,7 @@ body {
 
 .portfolio__picture {
   position: relative;
-  width: 100%;
+  display: block;
 }
 
 .portfolio__picture:after {
@@ -376,6 +376,7 @@ body {
 
 .portfolio__img {
   margin: 0 auto;
+  width: 100%;
 }
 
 .portfolio__subtitle {
